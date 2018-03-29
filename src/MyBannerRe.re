@@ -1,4 +1,4 @@
-[@bs.module] external myBanner : ReasonReact.reactClass = "../src/MyBanner";
+[@bs.module] external myBanner : ReasonReact.reactClass = "./MyBanner";
 
 let make = (~show, ~message, children) =>
   ReasonReact.wrapJsForReason(
